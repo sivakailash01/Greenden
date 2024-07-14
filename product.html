@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/logo.png">
+    <title>GREENDEN</title>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- Responsive Navbar -->
+    <nav class="bg-green-100 p-5 flex items-center justify-between shadow-md sticky top-0 z-10">
+        <h1 class="text-2xl">GREENDEN</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="size-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+        <ul class="flex gap-5 text-gray-600 hidden md:flex">
+            <li>
+                <a class="hover:underline hover:text-black" href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="product.html">Product</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Products -->
+    <section class="p-4 text-center">
+        <h1 class="font-bold mt-5 text-3xl">Our Products</h1>
+        <input type="text" class="border border-black p-2 m-3" style="width: 60%; border-radius: 30px;">
+        <div class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-5">
+            <div>
+                <img src="./images/product_1.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+                <h1>Rose Plant</h1>
+                <p>$80</p>
+            </div>
+            <div>
+                <img src="./images/product_2.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+                <h1>Snake Plant</h1>
+                <p>$50</p>
+            </div>
+            <div>
+                <img src="./images/product_3.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+                <h1>Beauty Plant</h1>
+                <p>$60</p>
+            </div>
+            <div>
+                <img src="./images/product_4.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+                <h1>Money Plant</h1>
+                <p>$30</p>
+            </div>
+            <div>
+                <img src="./images/product_5.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+                <h1>Rose Plant</h1>
+                <p>$80</p>
+            </div>
+            <div>
+                <img src="./images/product_6.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+                <h1>Snake Plant</h1>
+                <p>$50</p>
+            </div>
+            <div>
+                <img src="./images/product_7.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+                <h1>Beauty Plant</h1>
+                <p>$60</p>
+            </div>
+            <div>
+                <img src="./images/product_8.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+                <h1>Money Plant</h1>
+                <p>$30</p>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <section class="bg-green-100 p-10 flex flex-col gap-5">
+        <h1 class="font-bold text-4xl">Greenden</h1>
+        <p>The standrad chunk of pics and docs used in this to create a model webpage using tailwind css</p>
+        <p>@ 2024 Greenday.com</p>
+    </section>
+</body>
+</html>
